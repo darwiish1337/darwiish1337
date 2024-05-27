@@ -67,6 +67,5 @@
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=SubhadeepZilong&layout=compact&theme=algolia" alt="SubhadeepZilong" /></a> </p>
 
 -----
-Credits: [SubhadeepZilong](https://github.com/SubhadeepZilong)
 
 Last Edited on: 12/03/2022
