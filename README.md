@@ -98,14 +98,14 @@
 
 ## Github Contribution Streak 🔥 
 <br>
-<p align='center'><img src="https://github-readme-streak-stats.herokuapp.com?user=ahmadpiracha&theme=black-ice&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"></p>
+<p align='center'><img src="https://github-readme-streak-stats.herokuapp.com?user=darwiish1337&theme=black-ice&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"></p>
 
 <hr><br>
 
 ## Github Stats &nbsp;📊
 <br>
 <p align='center'>
-<img src="https://github-readme-stats.vercel.app/api?username=ahmadpiracha&show_icons=true&theme=github_dark">
+<img src="https://github-readme-stats.vercel.app/api?username=darwiish1337&show_icons=true&theme=github_dark">
 </p>
 <hr>
 <br>
@@ -113,7 +113,7 @@
 ## Most Used Languages 📚
 <br>
 <p align='center'>
-<img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=ahmadpiracha&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=10">
+<img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=darwiish1337&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=10">
 </p>
 
 <hr>
