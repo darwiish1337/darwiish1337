@@ -53,7 +53,7 @@
 ## 🔥 GitHub Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=darwiish1337&theme=dark&hide_border=false&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=darwiish1337&theme=dark&hide_border=false" alt="GitHub Streak"/>
 </p>
 
 ---
@@ -70,7 +70,7 @@
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=darwiish1337&theme=darkhub&no-frame=false&no-bg=false&margin-w=4&column=7" alt="GitHub Trophies"/>
+  <img src="https://github-trophies.vercel.app/?username=darwiish1337&theme=darkhub&no-frame=false&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies"/>
 </p>
 
 ---
