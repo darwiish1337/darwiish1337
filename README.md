@@ -1,120 +1,78 @@
-<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">, I'm Mohamed Darwish</h1>
-<h3 align="center">I'm an Software Developer</h3>
+<h1 align="center">
+  Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
+  , I'm Mohamed Darwish
+</h1>
+
+<h3 align="center">Data Analyst</h3>
 
 <p align="center">
-<br>
-
-<!-- Gmail -->
-<a href="mailto:mdarwiish009@gmail.com?subject=Contact%20from%20GitHub&body=Hello%20Mohamed,">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-</a>&nbsp;
-
-<!-- LinkedIn -->
-<a href="https://www.linkedin.com/in/mohamed-darwish1337" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>&nbsp;
-
-<!-- Credly -->
-<a href="https://www.credly.com/users/darwish1337" target="_blank">
-  <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/>
-</a>
-
+  <a href="mailto:mdarwiish009@gmail.com?subject=Contact%20from%20GitHub&body=Hello%20Mohamed,">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/mohamed-darwish1337" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.credly.com/users/darwish1337" target="_blank">
+    <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white"/>
+  </a>
 </p>
 
 <p align="center">
- <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Science+Engineering+Student;Backend+Developer;Always+learning+new+things&center=true&width=500&height=50"></a>
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Data+Analyst;SQL+%7C+Python+%7C+Power+BI;Turning+Data+into+Insights;Always+Learning+from+Data&center=true&width=650&height=50">
 </p>
 
-## Skills <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width=32px>
+---
 
-<!-- Programming Languages -->
-<a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">
-  <img alt="C#" src="https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white">
-</a>
+## 🧠 About Me
+- 📊 Data Analyst focused on extracting insights from data
+- 🧮 Strong in SQL, Excel, and data visualization
+- 📈 Interested in business insights and data-driven decisions
+- 🚀 Continuously learning data analysis tools and techniques
 
-<a href="https://www.microsoft.com/en-us/sql-server" target="_blank">
-  <img alt="SQL" src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white">
-</a>
+---
 
-<a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/" target="_blank">
-  <img alt="LINQ" src="https://img.shields.io/badge/LINQ-68217A?style=for-the-badge&logo=linq&logoColor=white">
-</a>
+## 🛠 Skills
 
-<!-- BackEnd Frameworks/Libraries -->
-<a href="https://docs.microsoft.com/en-us/aspnet/core/web-api/" target="_blank">
-  <img alt=".NET Core API" src="https://img.shields.io/badge/.NET%20Core-512BD4?style=for-the-badge&logo=.net&logoColor=white">
-</a>
+### 📊 Data Analysis
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-<a href="https://docs.microsoft.com/en-us/ef/" target="_blank">
-  <img alt="Entity Framework" src="https://img.shields.io/badge/Entity%20Framework-5C2D91?style=for-the-badge&logo=entityframework&logoColor=white">
-</a>
+### 🐍 Programming
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-<!-- Database -->
-<a href="https://www.mysql.com/" target="_blank">
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-</a>
+### 🧰 Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-<a href="https://docs.microsoft.com/en-us/sql/sql-server/" target="_blank">
-  <img alt="MSSQL" src="https://img.shields.io/badge/MSSQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white">
-</a>
+---
 
-<!-- Frontend Frameworks/Libraries -->
-<a href="https://www.w3.org/html/" target="_blank">
-  <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-</a>
-
-<a href="https://tailwindcss.com/" target="_blank">
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
-</a>
-
-<a href="https://www.w3.org/Style/CSS/" target="_blank">
-  <img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-</a>
-
-<a href="https://getbootstrap.com/" target="_blank">
-  <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
-</a>
-
-<!-- Version Control and Collaboration -->
-<a href="https://github.com/" target="_blank">
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-<a href="https://git-scm.com/" target="_blank">
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-</a>
-
-<!-- Design Tools -->
-<a href="https://www.figma.com/" target="_blank">
-  <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-</a>
-
-<!-- Tools and Platforms -->
-
+## 🐍 Contribution Graph
 ![snake gif](https://github.com/TekyaygilFethi/TekyaygilFethi/blob/output/github-contribution-grid-snake.svg)
 
+---
 
-
-## Github Contribution Streak 🔥 
-<br>
-<p align='center'><img src="https://github-readme-streak-stats.herokuapp.com?user=darwiish1337&theme=black-ice&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"></p>
-
-<hr><br>
-
-## Github Stats &nbsp;📊
-<br>
-<p align='center'>
-<img src="https://github-readme-stats.vercel.app/api?username=darwiish1337&show_icons=true&theme=github_dark">
-</p>
-<hr>
-<br>
-
-## Most Used Languages 📚
-<br>
-<p align='center'>
-<img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=darwiish1337&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=10">
+## 🔥 GitHub Contribution Streak
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=darwiish1337&theme=dark&hide_border=true"/>
 </p>
 
-<hr>
-<br>
-Last Edited on: 01/01/2024
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=darwiish1337&show_icons=true&theme=dark&hide_border=true"/>
+</p>
+
+---
+
+## 📚 Most Used Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&theme=dark&hide_border=true"/>
+</p>
+
+---
+
+<p align="center">
+  <b>Last Edited:</b> 29/01/2026
+</p>
