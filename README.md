@@ -24,6 +24,7 @@
 ---
 
 ## 🧠 About Me
+
 - 📊 Data Analyst focused on insights and reporting
 - 🧮 Strong in SQL, Excel, and BI tools
 - 📈 Interested in business and performance analytics
@@ -50,26 +51,50 @@
 ---
 
 ## 🔥 GitHub Contribution Streak
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=darwiish1337&theme=dark"/>
+  <img src="https://streak-stats.demolab.com?user=darwiish1337&theme=dark&hide_border=false&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
 </p>
 
 ---
 
 ## 📊 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=darwiish1337&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=false" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&langs_count=8&theme=dark&hide_border=false" alt="Top Languages"/>
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=darwiish1337&show_icons=true&theme=dark&cache_seconds=1800"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=darwiish1337&theme=darkhub&no-frame=false&no-bg=false&margin-w=4&column=7" alt="GitHub Trophies"/>
 </p>
 
 ---
 
-## 📚 Most Used Languages
+## 📈 Activity Graph
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&theme=dark&cache_seconds=1800"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=darwiish1337&theme=react-dark&hide_border=false" alt="Activity Graph"/>
+</p>
+
+---
+
+## 💻 Profile Views
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=darwiish1337&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
 
 ---
 
 <p align="center">
   <b>Last Edited:</b> 29/01/2026
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
