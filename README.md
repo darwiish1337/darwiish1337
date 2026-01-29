@@ -53,7 +53,7 @@
 ## 🔥 GitHub Contribution Streak
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=darwiish1337&theme=dark&hide_border=false" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=darwiish1337&theme=dark&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ---
