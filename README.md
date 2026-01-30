@@ -103,7 +103,7 @@ graph LR
 ---
 
 <details>
-<summary><h3>📖 My Full Story (Click to Expand) 👇</h3></summary>
+<summary><h3>📖 My Full Story</h3></summary>
 <br/>
 
 <div align="center">
@@ -190,7 +190,7 @@ SQL Querying  ██████████████████░░ 90%
 Python        ███████████████████░ 95%
 Power BI      ████████████████████ 92%
 Statistics    █████████████████░░░ 85%
-Machine Learning ██████████████░░░░░░ 80%
+Data Eng      ██████████████░░░░░░ 80%
 Data Viz      ████████████████████ 90%
 Excel         ████████████████████░ 95%
 ```
@@ -281,7 +281,7 @@ When I'm not analyzing data, you'll find me:
 ### 💻 Programming Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,r,cs,cpp,js,html,css" alt="Programming Languages" />
+  <img src="https://skillicons.dev/icons?i=python,r" alt="Programming Languages" />
 </p>
 
 ### 📊 Data & Analytics
@@ -307,10 +307,10 @@ When I'm not analyzing data, you'll find me:
       <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
     </td>
     <td align="center" width="25%">
-      <h4>Machine Learning</h4>
-      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+      <h4>Data Eng</h4>
+      <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/ETL-4285F4?style=for-the-badge"/>
     </td>
   </tr>
 </table>
@@ -400,18 +400,12 @@ When I'm not analyzing data, you'll find me:
 
 <div align="center">
 
-<a href="https://github.com/darwiish1337">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=darwiish1337&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=667eea&text_color=c9d1d9" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/darwiish1337">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=darwiish1337&theme=tokyonight&hide_border=true&background=0d1117&stroke=667eea&ring=667eea&fire=667eea&currStreakLabel=667eea&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Streak" />
-</a>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=darwiish1337&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=c9d1d9&include_all_commits=true&count_private=true&border_radius=10" alt="GitHub Stats" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=darwiish1337&theme=radical&hide_border=true&background=0D1117&stroke=667eea&ring=667eea&fire=667eea&currStreakLabel=667eea&sideLabels=c9d1d9&dates=c9d1d9&border_radius=10" alt="GitHub Streak" />
 
-<br/>
+<br/><br/>
 
-<a href="https://github.com/darwiish1337">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
-</a>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8&border_radius=10" alt="Top Languages" />
 
 </div>
 
@@ -420,9 +414,7 @@ When I'm not analyzing data, you'll find me:
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <a href="https://github.com/darwiish1337">
-    <img src="https://github-profile-trophy.vercel.app/?username=darwiish1337&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
-  </a>
+  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=darwiish1337&theme=radical&no-frame=true&no-bg=false&row=1&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
 </div>
 
 ---
@@ -430,7 +422,7 @@ When I'm not analyzing data, you'll find me:
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=darwiish1337&bg_color=0d1117&color=667eea&line=667eea&point=667eea&area=true&hide_border=true&area_color=667eea" alt="Contribution Graph" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=darwiish1337&bg_color=0d1117&color=667eea&line=667eea&point=667eea&area=true&hide_border=true&area_color=667eea" alt="Contribution Graph" />
 </div>
 
 ---
@@ -513,7 +505,7 @@ When I'm not analyzing data, you'll find me:
 
 <br/>
 
-<sub>Last Updated: January 30, 2026 • Made with ❤️ by Mohamed Darwish</sub>
+<sub>Last Updated: January 30, 2026 • Made by Mohamed Darwish</sub>
 
 <br/><br/>
 
