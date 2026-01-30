@@ -41,20 +41,15 @@ mission: |
   actionable insights that drive 
   business decisions and create value.
 
-experience: 2+ Years
-projects_completed: 15+
-certifications: 10+
+experience: 0-1 Years
+projects_completed: +1
+certifications: +1
 
 status:
-  learning: [ Machine Learning, Deep Learning, NLP ]
+  learning: [ Data Engineering ]
   working_on: [ Real-time Dashboards, ML Pipelines ]
   interested_in: [ AI, Business Intelligence, Analytics ]
   looking_for: [ Collaboration, New Opportunities ]
-  
-availability:
-  freelance: ✅ Available
-  full_time: ✅ Open
-  remote: ✅ Preferred
   
 contact:
   email: mdarwiish009@gmail.com
