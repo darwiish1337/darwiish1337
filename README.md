@@ -50,11 +50,6 @@ status:
   working_on: [ Real-time Dashboards, ML Pipelines ]
   interested_in: [ AI, Business Intelligence, Analytics ]
   looking_for: [ Collaboration, New Opportunities ]
-  
-contact:
-  email: mdarwiish009@gmail.com
-  linkedin: mohamed-darwish1337
-  response_time: "< 24 hours"
 ```
 
 </td>
