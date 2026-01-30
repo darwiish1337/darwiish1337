@@ -223,12 +223,11 @@ graph LR
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=darwiish1337&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=c9d1d9&include_all_commits=true&count_private=true&border_radius=10" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=darwiish1337&theme=radical&hide_border=true&background=0D1117&stroke=667eea&ring=667eea&fire=667eea&currStreakLabel=667eea&sideLabels=c9d1d9&dates=c9d1d9&border_radius=10" alt="GitHub Streak" />
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=darwiish1337&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=c9d1d9&include_all_commits=true&count_private=true)](https://github.com/darwiish1337)
 
-<br/><br/>
+[![GitHub Streak](https://streak-stats.demolab.com?user=darwiish1337&theme=radical&hide_border=true&background=0D1117&stroke=667eea&ring=667eea&fire=667eea&currStreakLabel=667eea&sideLabels=c9d1d9&dates=c9d1d9)](https://github.com/darwiish1337)
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8&border_radius=10" alt="Top Languages" />
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8)](https://github.com/darwiish1337)
 
 </div>
 
@@ -237,7 +236,9 @@ graph LR
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=darwiish1337&theme=radical&no-frame=true&no-bg=false&row=1&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=darwiish1337&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4)](https://github.com/darwiish1337)
+
 </div>
 
 ---
@@ -245,7 +246,7 @@ graph LR
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=darwiish1337&bg_color=0d1117&color=667eea&line=667eea&point=667eea&area=true&hide_border=true&area_color=667eea" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=darwiish1337&bg_color=0d1117&color=667eea&line=667eea&point=667eea&area=true&hide_border=true&area_color=667eea" alt="Contribution Graph" />
 </div>
 
 ---
@@ -295,8 +296,6 @@ graph LR
   </tr>
 </table>
 
-<br/>
-
 </div>
 
 ---
@@ -317,7 +316,7 @@ graph LR
 
 <br/>
 
-<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdarwiish1337&label=Visitors&countColor=%23667eea&style=flat-square&labelStyle=upper" />
+![](https://hit.yhype.me/github/profile?user_id=darwiish1337)
 
 <br/>
 
