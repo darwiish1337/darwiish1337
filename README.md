@@ -218,11 +218,16 @@ graph LR
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=darwiish1337&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=c9d1d9&include_all_commits=true&count_private=true)](https://github.com/darwiish1337)
+<a href="https://github.com/darwiish1337">
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=darwiish1337&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=c9d1d9"/>
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9"/>
+</a>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=darwiish1337&theme=radical&hide_border=true&background=0D1117&stroke=667eea&ring=667eea&fire=667eea&currStreakLabel=667eea&sideLabels=c9d1d9&dates=c9d1d9)](https://github.com/darwiish1337)
+<br/>
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8)](https://github.com/darwiish1337)
+<a href="https://github.com/darwiish1337">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=darwiish1337&theme=radical&hide_border=true&background=0D1117&stroke=667eea&ring=667eea&fire=667eea&currStreakLabel=667eea&sideLabels=c9d1d9&dates=c9d1d9&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak Stats"/>
+</a>
 
 </div>
 
@@ -232,7 +237,9 @@ graph LR
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=darwiish1337&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4)](https://github.com/darwiish1337)
+<a href="https://github.com/darwiish1337">
+  <img src="https://github-profile-trophy.vercel.app/?username=darwiish1337&theme=radical&no-frame=true&no-bg=false&margin-w=4&margin-h=4&row=2&column=4&title=Stars,Followers,Commits,Repositories,Issues,PullRequest,Reviews,MultiLanguage" alt="GitHub Trophies"/>
+</a>
 
 </div>
 
@@ -241,7 +248,11 @@ graph LR
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=darwiish1337&bg_color=0d1117&color=667eea&line=667eea&point=667eea&area=true&hide_border=true&area_color=667eea" alt="Contribution Graph" />
+
+<a href="https://github.com/darwiish1337">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=darwiish1337&bg_color=0d1117&color=667eea&line=667eea&point=c9d1d9&area=true&hide_border=true&theme=react-dark" alt="Contribution Graph" width="95%" />
+</a>
+
 </div>
 
 ---
@@ -311,13 +322,13 @@ graph LR
 
 <br/>
 
-![](https://hit.yhype.me/github/profile?user_id=darwiish1337)
+<a href="https://github.com/darwiish1337?tab=repositories">
+  <img src="https://img.shields.io/badge/⭐_Star_My_Repos-Click_Here!-yellow?style=for-the-badge&logo=github&logoColor=white" height="50" alt="Star Repositories"/>
+</a>
 
-<br/>
 
-<sub>Last Updated: January 30, 2026 • Made by Mohamed Darwish</sub>
+<sub>Last Updated: February 2026 • Made by Mohamed Darwish</sub>
 
-<br/><br/>
 
 **💡 Remember:** *"The best way to predict the future is to analyze the data."* 📊✨
 
