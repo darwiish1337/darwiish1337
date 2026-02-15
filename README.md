@@ -219,27 +219,46 @@ graph LR
 <div align="center">
 
 <a href="https://github.com/darwiish1337">
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=darwiish1337&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=c9d1d9"/>
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=darwiish1337&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=c9d1d9"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=darwiish1337&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9"/>
 </a>
 
 <br/>
 
 <a href="https://github.com/darwiish1337">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=darwiish1337&theme=radical&hide_border=true&background=0D1117&stroke=667eea&ring=667eea&fire=667eea&currStreakLabel=667eea&sideLabels=c9d1d9&dates=c9d1d9&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak Stats"/>
+  <img src="https://streak-stats.demolab.com?user=darwiish1337&theme=radical&hide_border=true&background=0D1117&stroke=667eea&ring=667eea&fire=667eea&currStreakLabel=667eea&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Streak Stats"/>
 </a>
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Highlights
 
 <div align="center">
 
-<a href="https://github.com/darwiish1337">
-  <img src="https://github-profile-trophy.vercel.app/?username=darwiish1337&theme=radical&no-frame=true&no-bg=false&margin-w=4&margin-h=4&row=2&column=4&title=Stars,Followers,Commits,Repositories,Issues,PullRequest,Reviews,MultiLanguage" alt="GitHub Trophies"/>
-</a>
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=darwiish1337&theme=radical" alt="Profile Summary" width="98%"/>
+
+<br/><br/>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Total%20Commits-1000+-667eea?style=for-the-badge&logo=git&logoColor=white" height="40"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Repositories-Active-764ba2?style=for-the-badge&logo=github&logoColor=white" height="40"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Code%20Quality-High-success?style=for-the-badge&logo=codacy&logoColor=white" height="40"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Open%20Source-Contributor-f093fb?style=for-the-badge&logo=opensourceinitiative&logoColor=white" height="40"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -250,7 +269,7 @@ graph LR
 <div align="center">
 
 <a href="https://github.com/darwiish1337">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=darwiish1337&bg_color=0d1117&color=667eea&line=667eea&point=c9d1d9&area=true&hide_border=true&theme=react-dark" alt="Contribution Graph" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=darwiish1337&bg_color=0d1117&color=667eea&line=667eea&point=c9d1d9&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" width="95%" />
 </a>
 
 </div>
@@ -318,12 +337,16 @@ graph LR
 
 <br/><br/>
 
-**⭐ If you like what you see, consider starring some repositories! ⭐**
+**⭐ If you like what you see, consider starring this repository! ⭐**
 
 <br/>
 
-<a href="https://github.com/darwiish1337?tab=repositories">
-  <img src="https://img.shields.io/badge/⭐_Star_My_Repos-Click_Here!-yellow?style=for-the-badge&logo=github&logoColor=white" height="50" alt="Star Repositories"/>
+<a href="https://github.com/darwiish1337/darwiish1337">
+  <img src="https://img.shields.io/badge/⭐_Star_This_Repo-Click_Here!-yellow?style=for-the-badge&logo=github&logoColor=white" height="50" alt="Star Repository"/>
+</a>
+<br/>
+<a href="https://github.com/darwiish1337/darwiish1337">
+  <img src="https://img.shields.io/github/stars/darwiish1337/darwiish1337?style=for-the-badge&logo=github&logoColor=white&color=yellow" height="35" alt="Stars Count"/>
 </a>
 
 
