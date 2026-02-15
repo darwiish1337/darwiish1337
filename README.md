@@ -387,5 +387,5 @@ graph LR
 
 </div>
 
-[![Certificates](https://img.shields.io/badge/Certificates-0-blue)](https://github.com/darwiish1337/darwiish1337/blob/main/certificates.md)
+[![Certificates](https://img.shields.io/badge/Certificates-0-blue)](https://github.com/darwiish1337/darwiish1337/blob/main/certificates.json)
 
