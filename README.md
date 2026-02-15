@@ -157,21 +157,11 @@ graph LR
 
 ### 🎓 Professional Certifications
 
-<table>
-  <tr>
-    <td align="center" width="33%" valign="top">
-      <a href="https://www.credly.com/users/darwish1337" title="Credly Profile">
-        <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white&labelColor=FF6B00" height="60" alt="Credly Profile"/>
-      </a>
-    </td>
-    <td align="center" width="33%" valign="top">
-      <img src="https://img.shields.io/badge/Certifications-10+-success?style=for-the-badge&logo=google-scholar&logoColor=white" height="60" alt="Total Certifications" title="10+ Certifications"/>
-    </td>
-    <td align="center" width="33%" valign="top">
-      <img src="https://img.shields.io/badge/Specializations-5+-blue?style=for-the-badge&logo=coursera&logoColor=white" height="60" alt="Specializations" title="5+ Specializations"/>
-    </td>
-  </tr>
-</table>
+<br/>
+<a href="https://darwiish1337.github.io/darwiish1337/certificates/" title="View My Certificates Portfolio">
+  <img src="https://img.shields.io/badge/_View_My_Certificates-2_Certificates-4CAF50?style=for-the-badge&logo=google-scholar&logoColor=white&labelColor=2E7D32" height="70" alt="View Certificates"/>
+</a>
+<br/><br/>
 
 ### 🏅 Competitive Programming & Challenges
 
