@@ -108,27 +108,27 @@ graph LR
   <tr>
     <td align="center" width="25%">
       <h4>Analysis</h4>
-      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" title="Pandas"/><br/>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" title="NumPy"/><br/>
+      <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" title="Seaborn"/>
     </td>
     <td align="center" width="25%">
       <h4>Visualization</h4>
-      <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/><br/>
-      <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" title="Power BI"/><br/>
+      <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" title="Tableau"/><br/>
+      <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge" title="Matplotlib"/>
     </td>
     <td align="center" width="25%">
       <h4>Databases</h4>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" title="MySQL"/><br/>
+      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" title="PostgreSQL"/><br/>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" title="MongoDB"/>
     </td>
     <td align="center" width="25%">
       <h4>Data Eng</h4>
-      <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/ETL-4285F4?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" title="Apache Spark"/><br/>
+      <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" title="Airflow"/><br/>
+      <img src="https://img.shields.io/badge/ETL-4285F4?style=for-the-badge" title="ETL"/>
     </td>
   </tr>
 </table>
@@ -159,22 +159,16 @@ graph LR
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <a href="https://www.credly.com/users/darwish1337">
-        <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white&labelColor=FF6B00" height="60" alt="Credly"/>
-        <br/><br/>
-        <b>🏅 View All Badges</b>
+    <td align="center" width="33%" valign="top">
+      <a href="https://www.credly.com/users/darwish1337" title="Credly Profile">
+        <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white&labelColor=FF6B00" height="60" alt="Credly Profile"/>
       </a>
     </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Certifications-10+-success?style=for-the-badge&logo=google-scholar&logoColor=white" height="60" alt="Certifications"/>
-      <br/><br/>
-      <b>📜 10+ Certifications</b>
+    <td align="center" width="33%" valign="top">
+      <img src="https://img.shields.io/badge/Certifications-10+-success?style=for-the-badge&logo=google-scholar&logoColor=white" height="60" alt="Total Certifications" title="10+ Certifications"/>
     </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Specializations-5+-blue?style=for-the-badge&logo=coursera&logoColor=white" height="60" alt="Specializations"/>
-      <br/><br/>
-      <b>🎯 5+ Specializations</b>
+    <td align="center" width="33%" valign="top">
+      <img src="https://img.shields.io/badge/Specializations-5+-blue?style=for-the-badge&logo=coursera&logoColor=white" height="60" alt="Specializations" title="5+ Specializations"/>
     </td>
   </tr>
 </table>
@@ -183,27 +177,33 @@ graph LR
 
 <table>
   <tr>
-    <td align="center" width="50%">
-      <a href="https://www.kaggle.com/darwish1337">
+    <td align="center" width="50%" valign="top">
+      <a href="https://www.kaggle.com/darwish1337" title="Kaggle Profile">
         <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" height="50"/>
       </a>
       <br/><br/>
       <b>📊 Data Science Competitions</b>
       <br/><br/>
-      <img src="https://img.shields.io/badge/Notebooks-Active-blue?style=flat-square&logo=kaggle" alt="Kaggle Notebooks"/>
-      <img src="https://img.shields.io/badge/Datasets-Shared-orange?style=flat-square&logo=kaggle" alt="Kaggle Datasets"/>
+      <a href="https://www.kaggle.com/darwish1337/code">
+        <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/darwish1337/notebook/light" alt="Notebooks" title="Kaggle Notebooks"/>
+      </a>
+      <a href="https://www.kaggle.com/darwish1337/datasets">
+        <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/darwish1337/dataset/light" alt="Datasets" title="Kaggle Datasets"/>
+      </a>
       <br/><br/>
       <sub>Competitions • Datasets • Notebooks</sub>
     </td>
-    <td align="center" width="50%">
-      <a href="https://leetcode.com/u/darwiish1337/">
+    <td align="center" width="50%" valign="top">
+      <a href="https://leetcode.com/u/darwiish1337/" title="LeetCode Profile">
         <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" height="50"/>
       </a>
       <br/><br/>
       <b>💻 Algorithm Challenges</b>
       <br/><br/>
-      <img src="https://img.shields.io/badge/Problems_Solved-Active-success?style=flat-square&logo=leetcode" alt="LeetCode"/>
-      <img src="https://img.shields.io/badge/Ranking-Improving-yellow?style=flat-square&logo=leetcode" alt="Ranking"/>
+      <img src="https://leetcard.jacoblin.cool/darwiish1337?theme=dark&font=Ubuntu&ext=contest" alt="LeetCode Stats" title="LeetCode Statistics"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Python-6_Solutions-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Solutions" title="Python Solutions: 6"/>
+      <img src="https://img.shields.io/badge/SQL-0_Queries-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL Solutions" title="SQL Solutions: 0"/>
       <br/><br/>
       <sub>Data Structures • Algorithms • Problem Solving</sub>
     </td>
@@ -246,44 +246,44 @@ graph LR
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/darwiish1337?tab=repositories">
+      <a href="https://github.com/darwiish1337?tab=repositories" title="Total Commits">
         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20Commits&query=%24.totalContributions&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=667eea&style=for-the-badge&logoColor=white" height="40"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/darwiish1337?tab=repositories">
+      <a href="https://github.com/darwiish1337?tab=repositories" title="Public Repositories">
         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fdarwiish1337&color=764ba2&style=for-the-badge&logoColor=white" height="40"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/darwiish1337?tab=followers">
+      <a href="https://github.com/darwiish1337?tab=followers" title="GitHub Followers">
         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Followers&query=%24.followers&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fdarwiish1337&color=f093fb&style=for-the-badge&logoColor=white" height="40"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/darwiish1337?tab=repositories">
+      <a href="https://github.com/darwiish1337?tab=repositories" title="Total Stars">
         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20Stars&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=4facfe&style=for-the-badge&logoColor=white" height="40"/>
       </a>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/darwiish1337?tab=repositories">
+      <a href="https://github.com/darwiish1337?tab=repositories" title="Total Forks">
         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20Forks&query=%24.forks&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=00f2fe&style=for-the-badge&logoColor=white" height="40"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/darwiish1337?tab=repositories">
+      <a href="https://github.com/darwiish1337?tab=repositories" title="Total Pull Requests">
         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20PRs&query=%24.total_pull_requests&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=a8edea&style=for-the-badge&logoColor=white" height="40"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/darwiish1337?tab=repositories">
+      <a href="https://github.com/darwiish1337?tab=repositories" title="Total Issues">
         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20Issues&query=%24.total_issues&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=fed6e3&style=for-the-badge&logoColor=white" height="40"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/darwiish1337?tab=repositories">
+      <a href="https://github.com/darwiish1337?tab=repositories" title="Repositories Contributed To">
         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Contributed%20To&query=%24.contributedTo&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=fbc2eb&style=for-the-badge&logoColor=white" height="40"/>
       </a>
     </td>
@@ -313,7 +313,7 @@ graph LR
 <table>
   <tr>
     <td align="center" width="25%">
-      <a href="mailto:mdarwiish009@gmail.com">
+      <a href="mailto:mdarwiish009@gmail.com" title="mdarwiish009@gmail.com">
         <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/E-Mail.png" width="80" />
         <br/><br/>
         <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="35"/>
@@ -322,7 +322,7 @@ graph LR
       </a>
     </td>
     <td align="center" width="25%">
-      <a href="https://www.linkedin.com/in/mohamed-darwish1337">
+      <a href="https://www.linkedin.com/in/mohamed-darwish1337" title="LinkedIn Profile">
         <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Link.png" width="80" />
         <br/><br/>
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35"/>
@@ -331,7 +331,7 @@ graph LR
       </a>
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/darwiish1337">
+      <a href="https://github.com/darwiish1337" title="GitHub Profile">
         <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="80" />
         <br/><br/>
         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="35"/>
@@ -340,7 +340,7 @@ graph LR
       </a>
     </td>
     <td align="center" width="25%">
-      <a href="https://www.kaggle.com/darwish1337">
+      <a href="https://www.kaggle.com/darwish1337" title="Kaggle Profile">
         <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="80" />
         <br/><br/>
         <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" height="35"/>
@@ -371,7 +371,7 @@ graph LR
 
 <br/>
 
-<a href="https://github.com/darwiish1337/darwiish1337">
+<a href="https://github.com/darwiish1337/darwiish1337" title="Star this Repository">
   <img src="https://img.shields.io/badge/⭐_Star_This_Repo-Click_Here!-yellow?style=for-the-badge&logo=github&logoColor=white" height="50" alt="Star Repository"/>
 </a>
 <br/>
