@@ -386,3 +386,5 @@ graph LR
 **💡 Remember:** *"The best way to predict the future is to analyze the data."* 📊✨
 
 </div>
+
+[![Certificates](https://img.shields.io/badge/Certificates-0-blue)](#)
