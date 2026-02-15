@@ -1,0 +1,40 @@
+name: Certificates Counter
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v3
+
+      - name: Install jq
+        run: sudo apt-get install jq -y
+
+      - name: Fetch certificates JSON
+        env:
+          TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
+        run: |
+          curl -H "Authorization: token $TOKEN" \
+          -H "Accept: application/vnd.github.v3.raw" \
+          -L https://api.github.com/repos/darwiish1337/my-certificates/contents/certificates.json \
+          -o certificates.json
+
+      - name: Count certificates
+        run: |
+          COUNT=$(jq length certificates.json)
+          echo "COUNT=$COUNT" >> $GITHUB_ENV
+
+      - name: Update README badge
+        run: |
+          sed -i "s|Certificates-[0-9]*-blue|Certificates-$COUNT-blue|" README.md
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update certificates count"
+          git push
