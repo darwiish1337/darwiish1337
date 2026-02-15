@@ -246,16 +246,46 @@ graph LR
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/Total%20Commits-1000+-667eea?style=for-the-badge&logo=git&logoColor=white" height="40"/>
+      <a href="https://github.com/darwiish1337?tab=repositories">
+        <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20Commits&query=%24.totalContributions&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=667eea&style=for-the-badge&logoColor=white" height="40"/>
+      </a>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/Repositories-Active-764ba2?style=for-the-badge&logo=github&logoColor=white" height="40"/>
+      <a href="https://github.com/darwiish1337?tab=repositories">
+        <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fdarwiish1337&color=764ba2&style=for-the-badge&logoColor=white" height="40"/>
+      </a>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/Code%20Quality-High-success?style=for-the-badge&logo=codacy&logoColor=white" height="40"/>
+      <a href="https://github.com/darwiish1337?tab=followers">
+        <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Followers&query=%24.followers&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fdarwiish1337&color=f093fb&style=for-the-badge&logoColor=white" height="40"/>
+      </a>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/Open%20Source-Contributor-f093fb?style=for-the-badge&logo=opensourceinitiative&logoColor=white" height="40"/>
+      <a href="https://github.com/darwiish1337?tab=repositories">
+        <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20Stars&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=4facfe&style=for-the-badge&logoColor=white" height="40"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/darwiish1337?tab=repositories">
+        <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20Forks&query=%24.forks&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=00f2fe&style=for-the-badge&logoColor=white" height="40"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/darwiish1337?tab=repositories">
+        <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20PRs&query=%24.total_pull_requests&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=a8edea&style=for-the-badge&logoColor=white" height="40"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/darwiish1337?tab=repositories">
+        <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Total%20Issues&query=%24.total_issues&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=fed6e3&style=for-the-badge&logoColor=white" height="40"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/darwiish1337?tab=repositories">
+        <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Contributed%20To&query=%24.contributedTo&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fdarwiish1337&color=fbc2eb&style=for-the-badge&logoColor=white" height="40"/>
+      </a>
     </td>
   </tr>
 </table>
