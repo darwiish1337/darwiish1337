@@ -3,12 +3,16 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout profile repo
         uses: actions/checkout@v3
+        
+      - name: Create certificates directory
+        run: mkdir -p certificates
         
       - name: Install jq
         run: sudo apt-get install jq -y
@@ -22,20 +26,27 @@ jobs:
           -L https://api.github.com/repos/darwiish1337/my-certificates/contents/certificates.json \
           -o certificates/certificates.json
           
+      - name: Verify file downloaded
+        run: |
+          echo "Checking if file exists..."
+          ls -la certificates/
+          cat certificates/certificates.json
+          
       - name: Count certificates
         run: |
           COUNT=$(jq length certificates/certificates.json)
           echo "COUNT=$COUNT" >> $GITHUB_ENV
+          echo "Total certificates: $COUNT"
           
       - name: Update README badge
         run: |
           sed -i "s|Certificates-[0-9]*-blue|Certificates-$COUNT-blue|" README.md
-          sed -i "s|badges/Certificates-[0-9]*-blue|badges/Certificates-$COUNT-blue|" README.md
           
       - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add README.md certificates/certificates.json
+          git status
           git diff --quiet && git diff --staged --quiet || git commit -m "Update certificates count to $COUNT"
           git push
