@@ -1,75 +1,146 @@
+// Logo URLs for different platforms
+const LOGO_URLS = {
+    udemy: 'https://logo.clearbit.com/udemy.com',
+    coursera: 'https://logo.clearbit.com/coursera.org',
+    google: 'https://logo.clearbit.com/google.com',
+    microsoft: 'https://logo.clearbit.com/microsoft.com',
+    aws: 'https://logo.clearbit.com/aws.amazon.com',
+    amazon: 'https://logo.clearbit.com/amazon.com',
+    meta: 'https://logo.clearbit.com/meta.com',
+    facebook: 'https://logo.clearbit.com/facebook.com',
+    linkedin: 'https://logo.clearbit.com/linkedin.com',
+    kaggle: 'https://logo.clearbit.com/kaggle.com',
+    ibm: 'https://logo.clearbit.com/ibm.com',
+    oracle: 'https://logo.clearbit.com/oracle.com',
+    cisco: 'https://logo.clearbit.com/cisco.com',
+    digiskills: 'https://logo.clearbit.com/digiskills.pk',
+    digipakistan: 'https://logo.clearbit.com/digipakistan.pk',
+    jawan: 'https://logo.clearbit.com/jawanpakistan.pk',
+};
 
-// Function to extract domain/issuer from URL
-function getIssuerFromUrl(url) {
+// Function to extract issuer from URL or name
+function getIssuerInfo(cert) {
     try {
-        const urlObj = new URL(url);
-        const hostname = urlObj.hostname;
-        
-        // Extract main domain name
+        const url = new URL(cert.link);
+        const hostname = url.hostname.replace('www.', '');
         const parts = hostname.split('.');
-        if (parts.length >= 2) {
-            const domain = parts[parts.length - 2];
-            return domain.charAt(0).toUpperCase() + domain.slice(1);
-        }
-        return 'Certificate';
+        const domain = parts[parts.length - 2];
+        
+        return {
+            name: domain.charAt(0).toUpperCase() + domain.slice(1),
+            domain: domain.toLowerCase()
+        };
     } catch (e) {
-        console.error('Error parsing URL:', e);
-        return 'Certificate';
+        // Fallback: extract from certificate name
+        const nameLower = cert.name.toLowerCase();
+        
+        if (nameLower.includes('udemy')) return { name: 'Udemy', domain: 'udemy' };
+        if (nameLower.includes('coursera')) return { name: 'Coursera', domain: 'coursera' };
+        if (nameLower.includes('google')) return { name: 'Google', domain: 'google' };
+        if (nameLower.includes('microsoft')) return { name: 'Microsoft', domain: 'microsoft' };
+        if (nameLower.includes('aws') || nameLower.includes('amazon')) return { name: 'AWS', domain: 'aws' };
+        if (nameLower.includes('digiskills')) return { name: 'DigiSkills', domain: 'digiskills' };
+        if (nameLower.includes('digipakistan')) return { name: 'DigiPakistan', domain: 'digipakistan' };
+        if (nameLower.includes('jawan')) return { name: 'Jawan Pakistan', domain: 'jawan' };
+        
+        return { name: 'Certificate Provider', domain: 'default' };
     }
 }
 
-// Function to get icon based on issuer name
-function getIssuerIcon(name) {
-    const nameLower = name.toLowerCase();
+// Function to get logo URL
+function getLogoUrl(domain) {
+    // Check if we have a custom logo URL
+    if (LOGO_URLS[domain]) {
+        return LOGO_URLS[domain];
+    }
     
-    if (nameLower.includes('udemy')) return 'fa-brands fa-youtube';
-    if (nameLower.includes('coursera')) return 'fa-brands fa-python';
-    if (nameLower.includes('google')) return 'fa-brands fa-google';
-    if (nameLower.includes('microsoft')) return 'fa-brands fa-microsoft';
-    if (nameLower.includes('aws') || nameLower.includes('amazon')) return 'fa-brands fa-aws';
-    if (nameLower.includes('meta') || nameLower.includes('facebook')) return 'fa-brands fa-meta';
-    if (nameLower.includes('linkedin')) return 'fa-brands fa-linkedin';
-    if (nameLower.includes('git')) return 'fa-brands fa-git-alt';
-    if (nameLower.includes('kaggle')) return 'fa-brands fa-kaggle';
-    if (nameLower.includes('ibm')) return 'fa-brands fa-linux';
-    if (nameLower.includes('oracle')) return 'fa-solid fa-database';
-    if (nameLower.includes('cisco')) return 'fa-solid fa-network-wired';
+    // Try Clearbit logo API
+    return `https://logo.clearbit.com/${domain}.com`;
+}
+
+// Function to get fallback icon
+function getFallbackIcon(domain) {
+    const icons = {
+        udemy: 'fa-brands fa-youtube',
+        coursera: 'fa-graduation-cap',
+        google: 'fa-brands fa-google',
+        microsoft: 'fa-brands fa-microsoft',
+        aws: 'fa-brands fa-aws',
+        amazon: 'fa-brands fa-aws',
+        meta: 'fa-brands fa-meta',
+        facebook: 'fa-brands fa-facebook',
+        linkedin: 'fa-brands fa-linkedin',
+        kaggle: 'fa-brands fa-kaggle',
+        ibm: 'fa-brands fa-linux',
+        digiskills: 'fa-laptop-code',
+        digipakistan: 'fa-graduation-cap',
+        jawan: 'fa-certificate',
+    };
     
-    return 'fa-solid fa-certificate';
+    return icons[domain] || 'fa-certificate';
 }
 
 // Function to create certificate card
 function createCertificateCard(cert, index) {
-    const issuer = getIssuerFromUrl(cert.link);
-    const icon = getIssuerIcon(cert.name);
+    const issuer = getIssuerInfo(cert);
+    const logoUrl = getLogoUrl(issuer.domain);
+    const fallbackIcon = getFallbackIcon(issuer.domain);
     
     const card = document.createElement('div');
     card.className = 'certificate-card';
-    card.style.animationDelay = `${index * 0.1}s`;
+    card.style.animationDelay = `${index * 0.05}s`;
+    
+    // Make the whole card clickable
+    card.onclick = () => window.open(cert.link, '_blank');
     
     card.innerHTML = `
         <div class="cert-header">
             <div class="cert-logo">
-                <i class="${icon}"></i>
+                <img src="${logoUrl}" 
+                     alt="${issuer.name}" 
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <i class="${fallbackIcon}" style="display: none;"></i>
             </div>
-            <a href="${cert.link}" target="_blank" rel="noopener noreferrer" class="external-link" title="View Certificate">
+            <a href="${cert.link}" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="external-link" 
+               onclick="event.stopPropagation();">
                 <i class="fas fa-external-link-alt"></i>
             </a>
         </div>
         <div class="cert-content">
             <h3>${cert.name}</h3>
             <div class="cert-issuer">
-                <i class="fas fa-building"></i>
-                ${issuer}
+                ${issuer.name}
             </div>
-            <span class="cert-date">
+        </div>
+        <div class="cert-footer">
+            <div class="cert-date">
                 <i class="fas fa-calendar-check"></i>
-                Verified Certificate
-            </span>
+                Issued ${extractIssueDate(cert.link)}
+            </div>
+            <div class="no-expiry">No Expiration Date</div>
         </div>
     `;
     
     return card;
+}
+
+// Function to extract issue date from URL (Udemy pattern)
+function extractIssueDate(url) {
+    try {
+        const urlObj = new URL(url);
+        if (urlObj.hostname.includes('udemy')) {
+            const pathParts = urlObj.pathname.split('/');
+            const ucIndex = pathParts.findIndex(p => p.startsWith('UC-'));
+            // Could parse date from certificate ID, but for now just show a generic date
+            return 'Recently';
+        }
+        return 'Recently';
+    } catch (e) {
+        return 'Recently';
+    }
 }
 
 // Function to load certificates
@@ -78,68 +149,59 @@ async function loadCertificates() {
     const countElement = document.getElementById('total-count');
     const dateElement = document.getElementById('last-updated');
     
-    console.log('Starting to load certificates...');
+    console.log('🚀 Loading certificates...');
     
     try {
-        // Try multiple paths to fetch the certificates file
+        // Try multiple paths
         const possiblePaths = [
             './certificates.json',
             'certificates.json',
-            '/darwiish1337/certificates/certificates.json',
             'https://darwiish1337.github.io/darwiish1337/certificates/certificates.json',
             'https://raw.githubusercontent.com/darwiish1337/darwiish1337/main/certificates/certificates.json'
         ];
         
         let certificates = null;
-        let successPath = null;
         
-        // Try each path until one works
         for (const path of possiblePaths) {
             try {
-                console.log(`Trying to fetch from: ${path}`);
+                console.log(`Trying: ${path}`);
                 const response = await fetch(path);
                 
                 if (response.ok) {
                     certificates = await response.json();
-                    successPath = path;
-                    console.log(`✅ Successfully loaded from: ${path}`);
+                    console.log(`✅ Loaded from: ${path}`);
                     break;
-                } else {
-                    console.log(`❌ Failed to load from ${path}: ${response.status}`);
                 }
             } catch (error) {
-                console.log(`❌ Error fetching from ${path}:`, error.message);
+                console.log(`❌ Failed: ${path}`);
             }
         }
         
-        // If no path worked, throw error
         if (!certificates) {
-            throw new Error('Could not load certificates from any path');
+            throw new Error('Could not load certificates');
         }
         
-        // Clear loading state
+        // Clear loading
         grid.innerHTML = '';
         
-        // Check if certificates exist
-        if (!certificates || certificates.length === 0) {
+        if (certificates.length === 0) {
             grid.innerHTML = `
-                <div class="loading">
-                    <i class="fas fa-exclamation-circle"></i>
+                <div class="loading-state">
                     <p>No certificates found</p>
                 </div>
             `;
             return;
         }
         
-        console.log(`Found ${certificates.length} certificates`);
+        console.log(`📜 Found ${certificates.length} certificates`);
         
-        // Create certificate cards
+        // Create cards
         certificates.forEach((cert, index) => {
             const card = createCertificateCard(cert, index);
             grid.appendChild(card);
         });
         
-        // Update count and date
+        // Update footer
         countElement.textContent = certificates.length;
         dateElement.textContent = new Date().toLocaleDateString('en-US', {
             year: 'numeric',
@@ -147,29 +209,18 @@ async function loadCertificates() {
             day: 'numeric'
         });
         
-        console.log('✅ Certificates loaded successfully!');
+        console.log('✅ All certificates loaded!');
         
     } catch (error) {
-        console.error('❌ Error loading certificates:', error);
+        console.error('❌ Error:', error);
         grid.innerHTML = `
-            <div class="loading">
-                <i class="fas fa-exclamation-triangle"></i>
-                <p>Error loading certificates. Please try again later.</p>
-                <p style="color: #94a3b8; font-size: 0.9rem; margin-top: 10px;">
-                    ${error.message}
-                </p>
+            <div class="loading-state">
+                <p style="color: white;">Error loading certificates</p>
+                <p style="color: rgba(255,255,255,0.8); font-size: 14px; margin-top: 10px;">${error.message}</p>
             </div>
         `;
     }
 }
 
-// Load certificates when page loads
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('🚀 Page loaded, initializing...');
-    loadCertificates();
-});
-
-// Also try to reload if there was an error
-window.addEventListener('load', () => {
-    console.log('🔄 Window fully loaded');
-});
+// Initialize
+document.addEventListener('DOMContentLoaded', loadCertificates);
