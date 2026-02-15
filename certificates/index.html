@@ -3,50 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed Darwish - Certificates</title>
+    <title>Mohamed Darwish - Licenses & Certifications</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <header>
+        <!-- Header -->
+        <header class="page-header">
             <div class="header-content">
-                <div class="profile-section">
-                    <div class="profile-image">
-                        <i class="fas fa-user-graduate"></i>
-                    </div>
-                    <div class="profile-info">
-                        <h1>Mohamed Darwish</h1>
-                        <p class="subtitle">Data Analyst | ML Enthusiast</p>
-                    </div>
-                </div>
-                <a href="https://github.com/darwiish1337" class="back-btn">
-                    <i class="fab fa-github"></i> Back to Profile
+                <a href="https://github.com/darwiish1337" class="back-link">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to Profile
                 </a>
+                <div class="header-title">
+                    <h1>Licenses & certifications</h1>
+                    <div class="title-line"></div>
+                </div>
             </div>
         </header>
 
-        <main>
-            <div class="title-section">
-                <h2 class="main-title">
-                    <i class="fas fa-certificate"></i>
-                    Licenses & Certifications
-                </h2>
-                <div class="title-underline"></div>
-            </div>
-
+        <!-- Certificates Grid -->
+        <main class="certificates-section">
             <div id="certificates-grid" class="certificates-grid">
-                <!-- Certificates will be loaded here by JavaScript -->
-                <div class="loading">
-                    <i class="fas fa-spinner fa-spin"></i>
+                <!-- Loading State -->
+                <div class="loading-state">
+                    <div class="loader"></div>
                     <p>Loading certificates...</p>
                 </div>
             </div>
         </main>
 
-        <footer>
-            <p>Last Updated: <span id="last-updated"></span></p>
-            <p>Total Certificates: <span id="total-count" class="count-badge">0</span></p>
+        <!-- Footer -->
+        <footer class="page-footer">
+            <p>Total Certificates: <span id="total-count" class="badge">0</span></p>
+            <p class="last-updated">Last Updated: <span id="last-updated"></span></p>
         </footer>
     </div>
 
