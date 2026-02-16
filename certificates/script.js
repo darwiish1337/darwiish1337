@@ -1,30 +1,3 @@
-// Logo URLs for different platforms
-const LOGO_URLS = {
-    udemy: 'https://logo.clearbit.com/udemy.com',
-    coursera: 'https://logo.clearbit.com/coursera.org',
-    google: 'https://logo.clearbit.com/google.com',
-    microsoft: 'https://logo.clearbit.com/microsoft.com',
-    aws: 'https://logo.clearbit.com/aws.amazon.com',
-    amazon: 'https://logo.clearbit.com/amazon.com',
-    meta: 'https://logo.clearbit.com/meta.com',
-    facebook: 'https://logo.clearbit.com/facebook.com',
-    linkedin: 'https://logo.clearbit.com/linkedin.com',
-    kaggle: 'https://logo.clearbit.com/kaggle.com',
-    ibm: 'https://logo.clearbit.com/ibm.com',
-    oracle: 'https://logo.clearbit.com/oracle.com',
-    cisco: 'https://logo.clearbit.com/cisco.com',
-    digiskills: 'https://logo.clearbit.com/digiskills.pk',
-    digipakistan: 'https://logo.clearbit.com/digipakistan.pk',
-    jawan: 'https://logo.clearbit.com/jawanpakistan.pk',
-    edx: 'https://logo.clearbit.com/edx.org',
-    harvard: 'https://logo.clearbit.com/harvard.edu',
-    mit: 'https://logo.clearbit.com/mit.edu',
-    stanford: 'https://logo.clearbit.com/stanford.edu',
-    hubspot: 'https://logo.clearbit.com/hubspot.com',
-    salesforce: 'https://logo.clearbit.com/salesforce.com',
-    credly: 'https://logo.clearbit.com/credly.com',
-};
-
 // Function to extract issuer from URL or name
 function getIssuerInfo(cert) {
     // If issuer is provided in JSON, use it directly
@@ -66,56 +39,55 @@ function getIssuerInfo(cert) {
         if (nameLower.includes('mit')) return { name: 'MIT', domain: 'mit' };
         if (nameLower.includes('stanford')) return { name: 'Stanford', domain: 'stanford' };
         if (nameLower.includes('edx')) return { name: 'edX', domain: 'edx' };
+        if (nameLower.includes('meta') || nameLower.includes('facebook')) return { name: 'Meta', domain: 'meta' };
+        if (nameLower.includes('linkedin')) return { name: 'LinkedIn', domain: 'linkedin' };
+        if (nameLower.includes('kaggle')) return { name: 'Kaggle', domain: 'kaggle' };
         
         return { name: 'Certificate Provider', domain: 'default' };
     }
 }
 
-// Function to get logo URL
+// Function to get logo URL (local first, then fallback to icon)
 function getLogoUrl(domain) {
-    // Check if we have a custom logo URL
-    if (LOGO_URLS[domain]) {
-        return LOGO_URLS[domain];
-    }
-    
-    // Try Clearbit logo API
-    return `https://logo.clearbit.com/${domain}.com`;
+    // Use local logo path
+    return `./logos/${domain}.png`;
 }
 
-// Function to get fallback icon
+// Function to get fallback icon with colors
 function getFallbackIcon(domain) {
     const icons = {
-        udemy: 'fa-brands fa-youtube',
-        coursera: 'fa-solid fa-graduation-cap',
-        google: 'fa-brands fa-google',
-        microsoft: 'fa-brands fa-microsoft',
-        aws: 'fa-brands fa-aws',
-        amazon: 'fa-brands fa-aws',
-        meta: 'fa-brands fa-meta',
-        facebook: 'fa-brands fa-facebook',
-        linkedin: 'fa-brands fa-linkedin',
-        kaggle: 'fa-brands fa-kaggle',
-        ibm: 'fa-solid fa-server',
-        cisco: 'fa-solid fa-network-wired',
-        oracle: 'fa-solid fa-database',
-        digiskills: 'fa-solid fa-laptop-code',
-        digipakistan: 'fa-solid fa-graduation-cap',
-        jawan: 'fa-solid fa-certificate',
-        harvard: 'fa-solid fa-graduation-cap',
-        mit: 'fa-solid fa-graduation-cap',
-        stanford: 'fa-solid fa-graduation-cap',
-        edx: 'fa-solid fa-book',
-        credly: 'fa-solid fa-award',
+        udemy: { icon: 'fa-brands fa-youtube', color: '#A435F0' },
+        coursera: { icon: 'fa-solid fa-graduation-cap', color: '#0056D2' },
+        google: { icon: 'fa-brands fa-google', color: '#4285F4' },
+        microsoft: { icon: 'fa-brands fa-microsoft', color: '#00A4EF' },
+        aws: { icon: 'fa-brands fa-aws', color: '#FF9900' },
+        amazon: { icon: 'fa-brands fa-aws', color: '#FF9900' },
+        meta: { icon: 'fa-brands fa-meta', color: '#0668E1' },
+        facebook: { icon: 'fa-brands fa-facebook', color: '#1877F2' },
+        linkedin: { icon: 'fa-brands fa-linkedin', color: '#0A66C2' },
+        kaggle: { icon: 'fa-brands fa-kaggle', color: '#20BEFF' },
+        ibm: { icon: 'fa-solid fa-server', color: '#0F62FE' },
+        cisco: { icon: 'fa-solid fa-network-wired', color: '#049FD9' },
+        oracle: { icon: 'fa-solid fa-database', color: '#F80000' },
+        digiskills: { icon: 'fa-solid fa-laptop-code', color: '#10B981' },
+        digipakistan: { icon: 'fa-solid fa-flag', color: '#059669' },
+        jawan: { icon: 'fa-solid fa-certificate', color: '#8B5CF6' },
+        harvard: { icon: 'fa-solid fa-university', color: '#A51C30' },
+        mit: { icon: 'fa-solid fa-atom', color: '#8A0000' },
+        stanford: { icon: 'fa-solid fa-university', color: '#8C1515' },
+        edx: { icon: 'fa-solid fa-book-open', color: '#02262B' },
+        credly: { icon: 'fa-solid fa-award', color: '#FF6B00' },
+        default: { icon: 'fa-solid fa-certificate', color: '#6B7280' },
     };
     
-    return icons[domain] || 'fa-solid fa-certificate';
+    return icons[domain] || icons.default;
 }
 
 // Function to create certificate card
 function createCertificateCard(cert, index) {
     const issuer = getIssuerInfo(cert);
     const logoUrl = getLogoUrl(issuer.domain);
-    const fallbackIcon = getFallbackIcon(issuer.domain);
+    const fallback = getFallbackIcon(issuer.domain);
     
     // Get the issued date from JSON or use default
     const issuedDate = cert.issued_date || 'Recently';
@@ -133,7 +105,7 @@ function createCertificateCard(cert, index) {
                 <img src="${logoUrl}" 
                      alt="${issuer.name}" 
                      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                <i class="${fallbackIcon}" style="display: none;"></i>
+                <i class="${fallback.icon}" style="display: none; color: ${fallback.color}; font-size: 28px;"></i>
             </div>
             <a href="${cert.link}" 
                target="_blank" 
