@@ -1,10 +1,32 @@
 [
   {
     "name": "Git Crash Course For Beginners - Udemy",
-    "link": "https://www.udemy.com/certificate/UC-84567472-24fe-4efd-85bd-16797663ad42/"
+    "link": "https://www.udemy.com/certificate/UC-84567472-24fe-4efd-85bd-16797663ad42/",
+    "issued_date": "Dec 2023"
   },
   {
     "name": "Personal Presentation Training - Udemy",
-    "link": "https://www.udemy.com/certificate/UC-2fab61ba-464f-4e7f-8b36-7d3fd40df6cc/"
+    "link": "https://www.udemy.com/certificate/UC-2fab61ba-464f-4e7f-8b36-7d3fd40df6cc/",
+    "issued_date": "Jan 2024"
+  },
+    {
+    "name": "Advanced Microsoft Excel - Udemy",
+    "link": "https://www.udemy.com/certificate/UC-ecdd6cb5-50ea-4435-af36-73c3f950e857/",
+    "issued_date": "Dec 2025"
+  },
+    {
+    "name": "Data Fundamentals - IBM",
+    "link": "https://www.credly.com/badges/c89448e5-ccdf-4d7f-bbe0-d912198c2757",
+    "issued_date": "Jan 2026"
+  },
+    {
+    "name": "Network Basics - Cisco Network Academy",
+    "link": "https://www.credly.com/badges/9ba67332-789a-4544-b720-11850374a3a6",
+    "issued_date": "Jan 2026"
+  },
+    {
+    "name": "Project Management Fundamentals - IBM",
+    "link": "https://www.credly.com/badges/9043aeb1-8270-4122-b597-ac43283f610f/print",
+    "issued_date": "Jan 2026"
   }
 ]
