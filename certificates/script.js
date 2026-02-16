@@ -16,6 +16,12 @@ const LOGO_URLS = {
     digiskills: 'https://logo.clearbit.com/digiskills.pk',
     digipakistan: 'https://logo.clearbit.com/digipakistan.pk',
     jawan: 'https://logo.clearbit.com/jawanpakistan.pk',
+    edx: 'https://logo.clearbit.com/edx.org',
+    harvard: 'https://logo.clearbit.com/harvard.edu',
+    mit: 'https://logo.clearbit.com/mit.edu',
+    stanford: 'https://logo.clearbit.com/stanford.edu',
+    hubspot: 'https://logo.clearbit.com/hubspot.com',
+    salesforce: 'https://logo.clearbit.com/salesforce.com',
 };
 
 // Function to extract issuer from URL or name
@@ -39,9 +45,16 @@ function getIssuerInfo(cert) {
         if (nameLower.includes('google')) return { name: 'Google', domain: 'google' };
         if (nameLower.includes('microsoft')) return { name: 'Microsoft', domain: 'microsoft' };
         if (nameLower.includes('aws') || nameLower.includes('amazon')) return { name: 'AWS', domain: 'aws' };
+        if (nameLower.includes('ibm')) return { name: 'IBM', domain: 'ibm' };
+        if (nameLower.includes('cisco')) return { name: 'Cisco', domain: 'cisco' };
+        if (nameLower.includes('oracle')) return { name: 'Oracle', domain: 'oracle' };
         if (nameLower.includes('digiskills')) return { name: 'DigiSkills', domain: 'digiskills' };
         if (nameLower.includes('digipakistan')) return { name: 'DigiPakistan', domain: 'digipakistan' };
         if (nameLower.includes('jawan')) return { name: 'Jawan Pakistan', domain: 'jawan' };
+        if (nameLower.includes('harvard')) return { name: 'Harvard', domain: 'harvard' };
+        if (nameLower.includes('mit')) return { name: 'MIT', domain: 'mit' };
+        if (nameLower.includes('stanford')) return { name: 'Stanford', domain: 'stanford' };
+        if (nameLower.includes('edx')) return { name: 'edX', domain: 'edx' };
         
         return { name: 'Certificate Provider', domain: 'default' };
     }
@@ -62,7 +75,7 @@ function getLogoUrl(domain) {
 function getFallbackIcon(domain) {
     const icons = {
         udemy: 'fa-brands fa-youtube',
-        coursera: 'fa-graduation-cap',
+        coursera: 'fa-solid fa-graduation-cap',
         google: 'fa-brands fa-google',
         microsoft: 'fa-brands fa-microsoft',
         aws: 'fa-brands fa-aws',
@@ -71,13 +84,19 @@ function getFallbackIcon(domain) {
         facebook: 'fa-brands fa-facebook',
         linkedin: 'fa-brands fa-linkedin',
         kaggle: 'fa-brands fa-kaggle',
-        ibm: 'fa-brands fa-linux',
-        digiskills: 'fa-laptop-code',
-        digipakistan: 'fa-graduation-cap',
-        jawan: 'fa-certificate',
+        ibm: 'fa-solid fa-server',
+        cisco: 'fa-solid fa-network-wired',
+        oracle: 'fa-solid fa-database',
+        digiskills: 'fa-solid fa-laptop-code',
+        digipakistan: 'fa-solid fa-graduation-cap',
+        jawan: 'fa-solid fa-certificate',
+        harvard: 'fa-solid fa-graduation-cap',
+        mit: 'fa-solid fa-graduation-cap',
+        stanford: 'fa-solid fa-graduation-cap',
+        edx: 'fa-solid fa-book',
     };
     
-    return icons[domain] || 'fa-certificate';
+    return icons[domain] || 'fa-solid fa-certificate';
 }
 
 // Function to create certificate card
@@ -85,6 +104,9 @@ function createCertificateCard(cert, index) {
     const issuer = getIssuerInfo(cert);
     const logoUrl = getLogoUrl(issuer.domain);
     const fallbackIcon = getFallbackIcon(issuer.domain);
+    
+    // Get the issued date from JSON or use default
+    const issuedDate = cert.issued_date || 'Recently';
     
     const card = document.createElement('div');
     card.className = 'certificate-card';
@@ -118,29 +140,13 @@ function createCertificateCard(cert, index) {
         <div class="cert-footer">
             <div class="cert-date">
                 <i class="fas fa-calendar-check"></i>
-                Issued ${extractIssueDate(cert.link)}
+                Issued ${issuedDate}
             </div>
             <div class="no-expiry">No Expiration Date</div>
         </div>
     `;
     
     return card;
-}
-
-// Function to extract issue date from URL (Udemy pattern)
-function extractIssueDate(url) {
-    try {
-        const urlObj = new URL(url);
-        if (urlObj.hostname.includes('udemy')) {
-            const pathParts = urlObj.pathname.split('/');
-            const ucIndex = pathParts.findIndex(p => p.startsWith('UC-'));
-            // Could parse date from certificate ID, but for now just show a generic date
-            return 'Recently';
-        }
-        return 'Recently';
-    } catch (e) {
-        return 'Recently';
-    }
 }
 
 // Function to load certificates
