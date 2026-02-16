@@ -22,10 +22,21 @@ const LOGO_URLS = {
     stanford: 'https://logo.clearbit.com/stanford.edu',
     hubspot: 'https://logo.clearbit.com/hubspot.com',
     salesforce: 'https://logo.clearbit.com/salesforce.com',
+    credly: 'https://logo.clearbit.com/credly.com',
 };
 
 // Function to extract issuer from URL or name
 function getIssuerInfo(cert) {
+    // If issuer is provided in JSON, use it directly
+    if (cert.issuer) {
+        const issuerLower = cert.issuer.toLowerCase();
+        return {
+            name: cert.issuer,
+            domain: issuerLower
+        };
+    }
+    
+    // Otherwise, try to extract from URL
     try {
         const url = new URL(cert.link);
         const hostname = url.hostname.replace('www.', '');
@@ -94,6 +105,7 @@ function getFallbackIcon(domain) {
         mit: 'fa-solid fa-graduation-cap',
         stanford: 'fa-solid fa-graduation-cap',
         edx: 'fa-solid fa-book',
+        credly: 'fa-solid fa-award',
     };
     
     return icons[domain] || 'fa-solid fa-certificate';
