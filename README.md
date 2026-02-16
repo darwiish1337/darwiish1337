@@ -158,10 +158,37 @@ graph LR
 ### 🎓 Professional Certifications
 
 <br/>
-<a href="https://darwiish1337.github.io/darwiish1337/certificates/" title="View My Certificates Portfolio">
-  <img src="https://img.shields.io/badge/_View_My_Certificates-2_Certificates-4CAF50?style=for-the-badge&logo=google-scholar&logoColor=white&labelColor=2E7D32" height="70" alt="View Certificates"/>
-</a>
-<br/><br/>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://darwiish1337.github.io/darwiish1337/certificates/" title="View All Certificates">
+        <img src="https://img.shields.io/badge/📜_Total_Certificates-6-FFD700?style=for-the-badge&labelColor=1a1a2e&logo=google-scholar&logoColor=FFD700" height="60"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <br/>
+      <a href="https://darwiish1337.github.io/darwiish1337/certificates/">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="100" height="100" alt="Certificates"/>
+      </a>
+      <br/><br/>
+      <h3>🌟 Certified Professional</h3>
+      <p>
+        <i>Click below to explore my complete certification portfolio</i>
+      </p>
+      <br/>
+      <a href="https://darwiish1337.github.io/darwiish1337/certificates/">
+        <img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-View_All_Certificates-FFD700?style=for-the-badge&labelColor=1a1a2e&logo=google-scholar&logoColor=FFD700" height="55"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
 
 ### 🏅 Competitive Programming & Challenges
 
@@ -190,12 +217,11 @@ graph LR
       <br/><br/>
       <b>💻 Algorithm Challenges</b>
       <br/><br/>
+      <a href="https://leetcode.com/u/darwiish1337/" title="LeetCode Profile">
       <img src="https://leetcard.jacoblin.cool/darwiish1337?theme=dark&font=Ubuntu&ext=contest" alt="LeetCode Stats" title="LeetCode Statistics"/>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Python-6_Solutions-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Solutions" title="Python Solutions: 6"/>
-      <img src="https://img.shields.io/badge/SQL-0_Queries-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL Solutions" title="SQL Solutions: 0"/>
-      <br/><br/>
-      <sub>Data Structures • Algorithms • Problem Solving</sub>
+      </a>
+        <img src="https://img.shields.io/badge/Python-6_Solutions-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Solutions" title="Python Solutions: 6"/>
+        <img src="https://img.shields.io/badge/SQL-0_Queries-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL Solutions" title="SQL Solutions: 0"/>
     </td>
   </tr>
 </table>
@@ -376,5 +402,3 @@ graph LR
 **💡 Remember:** *"The best way to predict the future is to analyze the data."* 📊✨
 
 </div>
-
-[![Certificates](https://img.shields.io/badge/Certificates-6-blue)](https://darwiish1337.github.io/darwiish1337/certificates/)
