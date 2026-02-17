@@ -38,9 +38,13 @@ jobs:
           echo "COUNT=$COUNT" >> $GITHUB_ENV
           echo "Total certificates: $COUNT"
           
-      - name: Update README badge
+      - name: Update README badges
         run: |
-          sed -i "s|Certificates-[0-9]*-blue|Certificates-$COUNT-blue|" README.md
+          # Update small badge at the bottom of README
+          sed -i "s|Certificates-[0-9]*-blue|Certificates-$COUNT-blue|g" README.md
+          
+          # Update big badge in Professional Certifications section
+          sed -i "s|Total_Certificates-[0-9]*-FFD700|Total_Certificates-$COUNT-FFD700|g" README.md
           
       - name: Commit changes
         run: |
