@@ -1,42 +1,51 @@
+/* ============================================================
+   CERTIFICATES PAGE - STYLESHEET
+   Author: Mohamed Darwish
+   Description: Styles for the Licenses & Certifications page
+   ============================================================ */
+
+/* ==================== GOOGLE FONTS ==================== */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+/* ==================== RESET & BASE ==================== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ==================== CSS VARIABLES ==================== */
 :root {
-    --primary-bg: #14b8a6;
-    --secondary-bg: #0d9488;
-    --card-bg: #ffffff;
-    --text-dark: #1f2937;
-    --text-gray: #6b7280;
-    --text-light: #9ca3af;
-    --border-color: #e5e7eb;
-    --hover-color: #0891b2;
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    --primary-bg:    #14b8a6;
+    --secondary-bg:  #0d9488;
+    --card-bg:       #ffffff;
+    --text-dark:     #1f2937;
+    --text-gray:     #6b7280;
+    --text-light:    #9ca3af;
+    --border-color:  #e5e7eb;
+    --hover-color:   #0891b2;
+    --shadow-sm:     0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md:     0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg:     0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --shadow-hover:  0 20px 25px -5px rgba(0, 0, 0, 0.1);
 }
 
+/* ==================== BODY ==================== */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background: linear-gradient(135deg, var(--primary-bg) 0%, var(--secondary-bg) 100%);
     min-height: 100vh;
-    padding: 0;
     color: var(--text-dark);
     line-height: 1.6;
 }
 
+/* ==================== CONTAINER ==================== */
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0;
 }
 
-/* ============ HEADER ============ */
+/* ==================== HEADER ==================== */
 .page-header {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -52,6 +61,7 @@ body {
     margin: 0 auto;
 }
 
+/* Back link button */
 .back-link {
     display: inline-flex;
     align-items: center;
@@ -69,6 +79,7 @@ body {
     gap: 12px;
 }
 
+/* Page title */
 .header-title h1 {
     font-size: 32px;
     font-weight: 600;
@@ -76,6 +87,7 @@ body {
     margin-bottom: 12px;
 }
 
+/* Decorative underline below title */
 .title-line {
     width: 120px;
     height: 3px;
@@ -83,12 +95,12 @@ body {
     border-radius: 2px;
 }
 
-/* ============ CERTIFICATES SECTION ============ */
+/* ==================== CERTIFICATES SECTION ==================== */
 .certificates-section {
     padding: 60px 60px 80px;
-    background: transparent;
 }
 
+/* Grid layout for certificate cards */
 .certificates-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
@@ -97,7 +109,7 @@ body {
     margin: 0 auto;
 }
 
-/* ============ CERTIFICATE CARD ============ */
+/* ==================== CERTIFICATE CARD ==================== */
 .certificate-card {
     background: var(--card-bg);
     border-radius: 12px;
@@ -110,21 +122,43 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    /* Fade-in animation applied via nth-child below */
+    animation: fadeInUp 0.5s ease forwards;
+    opacity: 0;
 }
 
+/* Hover state */
 .certificate-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-hover);
     border-color: var(--primary-bg);
 }
 
-/* Card Header */
+/* Expired card styling */
+.certificate-card.expired {
+    opacity: 0.65;
+    border-color: #EF4444;
+}
+
+.certificate-card.expired::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: #EF4444;
+    border-radius: 12px 12px 0 0;
+}
+
+/* ---- Card Header ---- */
 .cert-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
+/* Company logo box */
 .cert-logo {
     width: 64px;
     height: 64px;
@@ -147,9 +181,9 @@ body {
 
 .cert-logo i {
     font-size: 28px;
-    color: var(--text-gray);
 }
 
+/* External link icon (top-right of card) */
 .external-link {
     width: 36px;
     height: 36px;
@@ -169,19 +203,19 @@ body {
     color: var(--hover-color);
 }
 
-/* Card Content */
+/* ---- Card Content ---- */
 .cert-content {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
 }
 
+/* Certificate name */
 .cert-content h3 {
     font-size: 18px;
     font-weight: 600;
     color: var(--text-dark);
     line-height: 1.4;
-    margin: 0;
     transition: color 0.2s ease;
 }
 
@@ -189,30 +223,24 @@ body {
     color: var(--hover-color);
 }
 
+/* Issuer name */
 .cert-issuer {
-    display: flex;
-    align-items: center;
-    gap: 8px;
     font-size: 14px;
     color: var(--text-gray);
     font-weight: 500;
 }
 
-.cert-issuer i {
-    font-size: 14px;
-    color: var(--text-light);
-}
-
-/* Card Footer */
+/* ---- Card Footer ---- */
 .cert-footer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
     padding-top: 16px;
     border-top: 1px solid var(--border-color);
     margin-top: auto;
 }
 
+/* Issue date */
 .cert-date {
     display: flex;
     align-items: center;
@@ -226,18 +254,23 @@ body {
     font-size: 12px;
 }
 
-.no-expiry {
+/* Expiry status - color is set dynamically via JS */
+.cert-expiry {
+    display: flex;
+    align-items: center;
+    gap: 6px;
     font-size: 12px;
-    color: var(--text-light);
+    font-weight: 600;
 }
 
-/* ============ LOADING STATE ============ */
+/* ==================== LOADING STATE ==================== */
 .loading-state {
     grid-column: 1 / -1;
     text-align: center;
     padding: 80px 20px;
 }
 
+/* Spinning loader circle */
 .loader {
     width: 48px;
     height: 48px;
@@ -258,7 +291,7 @@ body {
     font-weight: 500;
 }
 
-/* ============ FOOTER ============ */
+/* ==================== FOOTER ==================== */
 .page-footer {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -273,6 +306,7 @@ body {
     margin: 8px 0;
 }
 
+/* Certificate count badge */
 .badge {
     display: inline-block;
     background: linear-gradient(135deg, var(--primary-bg), var(--secondary-bg));
@@ -289,7 +323,7 @@ body {
     color: var(--text-light);
 }
 
-/* ============ ANIMATIONS ============ */
+/* ==================== ANIMATIONS ==================== */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -301,28 +335,25 @@ body {
     }
 }
 
-.certificate-card {
-    animation: fadeInUp 0.5s ease forwards;
-    opacity: 0;
-}
-
+/* Staggered animation delays for each card */
 .certificate-card:nth-child(1) { animation-delay: 0.05s; }
-.certificate-card:nth-child(2) { animation-delay: 0.1s; }
+.certificate-card:nth-child(2) { animation-delay: 0.10s; }
 .certificate-card:nth-child(3) { animation-delay: 0.15s; }
-.certificate-card:nth-child(4) { animation-delay: 0.2s; }
+.certificate-card:nth-child(4) { animation-delay: 0.20s; }
 .certificate-card:nth-child(5) { animation-delay: 0.25s; }
-.certificate-card:nth-child(6) { animation-delay: 0.3s; }
+.certificate-card:nth-child(6) { animation-delay: 0.30s; }
 .certificate-card:nth-child(7) { animation-delay: 0.35s; }
-.certificate-card:nth-child(8) { animation-delay: 0.4s; }
+.certificate-card:nth-child(8) { animation-delay: 0.40s; }
 .certificate-card:nth-child(9) { animation-delay: 0.45s; }
 
-/* ============ RESPONSIVE DESIGN ============ */
+/* ==================== RESPONSIVE - TABLET ==================== */
 @media (max-width: 1024px) {
     .certificates-grid {
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     }
 }
 
+/* ==================== RESPONSIVE - MOBILE ==================== */
 @media (max-width: 768px) {
     .page-header,
     .certificates-section,
@@ -341,6 +372,7 @@ body {
     }
 }
 
+/* ==================== RESPONSIVE - SMALL MOBILE ==================== */
 @media (max-width: 480px) {
     .certificate-card {
         padding: 24px;
