@@ -2,9 +2,22 @@
   {
     "name": "Data Analyst Associate",
     "issuer": "datacamp",
-    "link": "https://www.datacamp.com/certificate/DAA0015524067893/",
+    "link": "https://www.datacamp.com/certificate/DAA0015524067893",
     "issued_date": "Feb 2026",
     "expires_date": "Feb 2028"
+  },
+  {
+    "name": "SQL Associate",
+    "issuer": "datacamp",
+    "link": "https://www.datacamp.com/certificate/SQA0019165221382",
+    "issued_date": "March 2026",
+    "expires_date": "March 2028"
+  },
+  {
+    "name": "SQL Foundations",
+    "issuer": "coursera",
+    "link": "https://coursera.org/share/bffd261f19ef993a1fe2ee6b6be1200a",
+    "issued_date": "March 2026"
   },
   {
     "name": "Git Crash Course For Beginners",
