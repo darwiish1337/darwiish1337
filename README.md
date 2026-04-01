@@ -387,7 +387,12 @@ graph LR
 
 <br/>
 
-<a href="https://github.com/darwiish1337/darwiish1337" title="Star this Repository">
+<!-- ======================================================
+     ⭐  STAR BUTTON  —  يفتح صفحة GitHub Pages الوسيطة
+     بعد ما تضيف star.html للـ repo، غيّر الرابط لـ:
+     https://darwiish1337.github.io/darwiish1337/star
+     ====================================================== -->
+<a href="https://darwiish1337.github.io/darwiish1337/star" title="⭐ Star This Repository">
   <img src="https://img.shields.io/badge/⭐_Star_This_Repo-Click_Here!-yellow?style=for-the-badge&logo=github&logoColor=white" height="50" alt="Star Repository"/>
 </a>
 <br/>
@@ -395,9 +400,7 @@ graph LR
   <img src="https://img.shields.io/github/stars/darwiish1337/darwiish1337?style=for-the-badge&logo=github&logoColor=white&color=yellow" height="35" alt="Stars Count"/>
 </a>
 
-
 <sub>Last Updated: February 2026 • Made by Mohamed Darwish</sub>
-
 
 **💡 Remember:** *"The best way to predict the future is to analyze the data."* 📊✨
 
