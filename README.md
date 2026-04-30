@@ -387,20 +387,29 @@ graph LR
 
 <br/>
 
-<!-- ======================================================
-     ⭐  STAR BUTTON  —  يفتح صفحة GitHub Pages الوسيطة
-     بعد ما تضيف star.html للـ repo، غيّر الرابط لـ:
-     https://darwiish1337.github.io/darwiish1337/star
-     ====================================================== -->
-<a href="https://darwiish1337.github.io/darwiish1337/star" title="⭐ Star This Repository">
+<!-- 
+  STAR BUTTON
+  Clicking this button takes the user directly to the repository page on GitHub.
+  GitHub does not allow starring a repo from outside the platform (requires user login and authentication).
+  The best approach is to redirect users to the repo page so they can star it themselves.
+-->
+<a href="https://github.com/darwiish1337/darwiish1337" title="⭐ Star This Repository">
   <img src="https://img.shields.io/badge/⭐_Star_This_Repo-Click_Here!-yellow?style=for-the-badge&logo=github&logoColor=white" height="50" alt="Star Repository"/>
 </a>
+
 <br/>
-<a href="https://github.com/darwiish1337/darwiish1337">
-  <img src="https://img.shields.io/github/stars/darwiish1337/darwiish1337?style=for-the-badge&logo=github&logoColor=white&color=yellow" height="35" alt="Stars Count"/>
+
+<!-- 
+  STAR COUNT BADGE
+  Uses shields.io to fetch the real-time star count from the GitHub API.
+  The "social" style shows the count even when it is zero (avoids "INVALID" label).
+  Clicking the badge opens the stargazers page of the repository.
+-->
+<a href="https://github.com/darwiish1337/darwiish1337/stargazers">
+  <img src="https://img.shields.io/github/stars/darwiish1337/darwiish1337?style=social" height="35" alt="Stars Count"/>
 </a>
 
-<sub>Last Updated: February 2026 • Made by Mohamed Darwish</sub>
+<sub>Last Updated: April 2026 • Made by Mohamed Darwish</sub>
 
 **💡 Remember:** *"The best way to predict the future is to analyze the data."* 📊✨
 
